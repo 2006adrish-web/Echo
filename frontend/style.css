@@ -1,0 +1,50 @@
+body {
+  font-family: Arial;
+  background: #0f0f1a;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.post-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post {
+  background: #1c1c2e;
+  padding: 10px;
+  border-radius: 8px;
+}

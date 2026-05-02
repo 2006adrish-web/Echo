@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PulseBoard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Echo</h1>
+    <div class="name-box">
+  <input id="nameInput" placeholder="Enter name once per session" />
+  <button onclick="saveName()">Set</button>
+</div>
+<div class="user-panel">
+  <input id="nameInput" placeholder="Your username" />
+  <button onclick="updateUsername()">Update</button>
+</div>
+
+    <!-- POST BOX -->
+    <div class="post-box">
+      <input id="postInput" type="text" placeholder="What's on your mind?" />
+      <button onclick="createPost()">Post</button>
+    </div>
+
+    <!-- FEED -->
+    <div id="feed" class="feed"></div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
