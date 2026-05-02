@@ -5,6 +5,7 @@ from flask import redirect
 from apscheduler.schedulers.background import BackgroundScheduler
 import time
 import atexit
+
 app = Flask(__name__)
 CORS(app)
 DB = "pulse.db"
